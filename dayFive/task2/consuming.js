@@ -1,0 +1,15 @@
+let mearn = createTrackList("mearn", document.body);
+let cross = createTrackList("cross", document.body);
+let net = createTrackList(".net", document.body);
+let pi = createTrackList("pi", document.body);
+addCourse("html", mearn);
+addCourse("css", mearn);
+addCourse("js", mearn);
+addCourse("react", mearn);
+// removeCourse("html", mearn);
+addCourse("html", cross);
+addCourse("css", cross);
+addCourse("js", cross);
+addCourse("flutter", cross);
+// removeCourse("html", cross);
+moveCourse("react", cross);

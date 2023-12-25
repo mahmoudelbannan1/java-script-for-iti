@@ -1,0 +1,43 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.parent {
+  border: 2px solid;
+  padding: 30px;
+}
+.unOrderdList {
+  width: fit-content;
+  margin: auto;
+}
+ul {
+  display: inline-block;
+  width: 300px;
+  border: 2px solid;
+  list-style-position: inside;
+}
+li {
+  background-color: #a435f0;
+}
+
+li:hover {
+  background-color: #a535f045;
+}
+.selected {
+}
+.moving {
+  width: fit-content;
+  margin: 20px auto;
+}
+button {
+  padding: 5px 10px;
+}
+.discription {
+  width: fit-content;
+  margin: 20px auto;
+}
+
+input {
+  padding: 5px 10px;
+}

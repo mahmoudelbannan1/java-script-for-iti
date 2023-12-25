@@ -1,0 +1,1 @@
+creatCountry("Egypt");
